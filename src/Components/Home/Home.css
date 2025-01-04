@@ -1,0 +1,548 @@
+.logo{
+    width: 500px;
+}
+
+.logo img{
+    width: 300px;
+    height: 100px;
+}
+.profile{
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border-radius:50% ;
+
+}
+
+.details{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.logout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details input{
+  width: 300px;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: rgb(56, 54, 54);
+}
+
+.details h1{
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.details h4{
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: normal;
+}
+.details select{
+  margin-bottom: 20px;
+  width: 80px;
+  border-radius: 50px;
+  height: 30px;
+}
+.logout button{
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.save{
+  background-color: green;
+
+}
+.out{
+  background-color: rgb(241, 70, 70);
+}
+.logout img{
+  height: 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quiz{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.create,.start{
+    display: flex;
+    height: 200px;
+    width: 400px ;
+    border: 3px solid rgb(92, 90, 90);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(118, 116, 116);
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.create:hover,.start:hover{
+    background-color: #439943;
+    color: white;
+}
+
+.created-questions{
+    background: linear-gradient(to right,#E3F2FD, #134074);
+}
+
+.created-questions h2{
+   font-weight: normal;
+   padding-left: 50px;
+   font-size: 2.2rem;
+}
+
+.pagination{
+  display: flex;
+  padding-bottom: 30px;
+  width: 300px;
+  margin-left: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination button{
+  width: 80px;
+  height: 30px;
+  background-color: #134074;
+  color: white;
+  border-radius: 40px;
+  border: 2px solid #134074;
+
+}
+
+table{
+  padding: 20px;
+  width: 100%;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 40px; /* Adjusts the space between rows */
+}
+
+table tr th{
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.question-row td{
+  border-bottom: 1px solid #070707;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+
+}
+.question-row td{
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.question-row .created-question{
+   width: 350px;
+   text-align: start;
+   padding-left: 50px;
+}
+
+.verfication{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ #topic-frame{
+  height: 50px;
+  width: 160px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: larger;
+  margin-left: 10px;
+  margin-right: 60px;
+  cursor: pointer;
+ }
+
+ .verfication button{
+      width: 120px;
+      height: 50px;
+      font-size: x-large;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+ }
+ 
+ .verfication .selected{
+  background-color: #090909; /* Blue color for selected button */
+  color: #fff; /* White text color for selected button */
+ }
+ .input-question{
+    width: 800px;
+    height: 100px;
+    padding: 60px;
+    margin-right: 90px;
+    font-size: xx-large;
+    border-radius: 30px;
+    background-color: rgb(245, 241, 241);
+}
+
+.access{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.access h2{
+  margin-left: 20px;
+  font-size: 3rem;
+  font-weight: normal;
+}
+.access .buttons button{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.create-question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-question button{
+  background-color: #439943;
+  height: 80px;
+  margin-right: 400px;
+  width: 350px;
+  border-radius: 50px;
+  font-size: 3rem;
+  border: 3px solid #439943;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: normal ;
+  padding: 30px;
+}
+.create-question button p{
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.buttons button.selected {
+    background-color: #090909; /* Blue color for selected button */
+    color: #fff; /* White text color for selected button */
+}
+
+.options{
+    display: flex;
+    margin-bottom: 10px;
+}
+  
+.answers .options input[type="radio"] {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 10px;
+
+  position: relative;
+  top: 4px;
+  }
+
+  .answers .options input[type="radio"]:checked{
+    border: 20px solid green;
+  }
+  
+
+  .answers .options input[type="radio"]:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .answers .options input[type="text"]{
+     height: 40px;
+     width: 300px;
+     border-radius: 30px;
+     border: 2px solid rgb(152, 147, 147);
+     padding-left: 10px;
+  }
+
+  .quiz-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 10px;
+  }
+  .quiz-buttons button{
+    background-color: white;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+    width: 100px;
+    border: 2px solid black;
+  }
+
+  .quiz-buttons  .selected{
+       background-color: black;
+       color: white;
+  }
+  
+  .pre-start-rules{
+    margin-left: 80px;
+  }
+  .pre-start-rules p{
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+  
+  .pre-start-rules h2{
+    font-weight: bold;
+  }
+  .start-quiz{
+    background-color: green;
+    width: 200px;
+    color: white;
+    height: 30px;
+    margin-left: 300px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .counter{
+    display: flex;
+    height: 55%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+ .green{
+    color: green;
+  }
+
+ .red{
+    color: red;
+  }
+
+  .yellow{
+    color:  #ffd700;
+  }
+
+  .question ul li label input[type="radio"]{
+    appearance: none;
+
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 10px;
+    margin-left: 100px;
+    position: relative;
+    top: 4px;
+  }
+
+  .question ul li label input[type="radio"]:checked{
+    border: 15px solid rgb(30, 30, 222);
+  }
+
+  .question ul li label input[type="radio"]:focus{
+    outline: none;
+    box-shadow: none;
+  }
+
+  .question ul li label{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .next{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .next button{
+    width: 13%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+  }
+
+  .question .given-question{
+    margin-left: 100px ;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .question h1{
+    margin-left: 100px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  .result-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  }
+  .result-submit h1{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .result-submit h2{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .result-submit button{
+    width: 13%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+  }
+
+  .result-page {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    padding: 40px;
+    padding-top: 0px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    color: #222;
+}
+
+.result-h1 {
+    font-size: 3em;
+    margin-left: 15%;
+    font-weight: normal;
+}
+.result-summary{
+  padding-top: 20px;
+}
+.result-summary p {
+    font-size: 1.4em;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.circular-progress {
+    margin-top: 20px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid green;
+}
+
+
+.circle-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    background-color: #222;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.accuracy-text {
+    font-size: 1.5em;
+    color: white;
+}
+
+.accuracy-label {
+    font-size: 1em;
+    color: white;
+}
+
+.actions {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-button {
+    background-color: #d79f0f;
+    border: none;
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background-color: #f7d870;
+}
+
+
